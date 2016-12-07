@@ -1,0 +1,102 @@
+<!doctype html>
+<html><head>
+    <meta charset="{CHARSET}">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<style type='text/css'>
+		html { font-family:Helvetica; color:#222; }
+		h1 { color:steelblue; font-size:24px; margin-top:24px; }
+		button { margin:0 3px 10px; font-size:12px; }
+		.logLine { border-bottom:1px solid #ccc; padding:4px 2px; font-family:courier; font-size:11px; }
+	</style>
+</head><body>
+	<h1>iOS function</h1>
+	<script>
+	window.onerror = function(err) {
+		log('window.onerror: ' + err)
+	}
+
+    function setupWebViewJavascriptBridge(callback) {
+        if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+        
+        window.WVJBCallbacks = [callback];
+        var WVJBIframe = document.createElement('iframe');
+        WVJBIframe.style.display = 'none';
+        WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__';
+        document.documentElement.appendChild(WVJBIframe);
+        setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+    }
+
+    setupWebViewJavascriptBridge(function(bridge) {
+		var uniqueId = 1
+		function log(message, data) {
+			var log = document.getElementById('log')
+			var el = document.createElement('div')
+			el.className = 'logLine'
+			el.innerHTML = uniqueId++ + '. ' + message + ':<br/>' + JSON.stringify(data)
+			if (log.children.length) { log.insertBefore(el, log.children[0]) }
+			else { log.appendChild(el) }
+		}
+
+                                 
+		document.body.appendChild(document.createElement('br'))
+
+		var qRcodeButton = document.getElementById('buttons').appendChild(document.createElement('button'))
+		qRcodeButton.innerHTML = 'QRCode scan'
+                                 //点击按钮
+		qRcodeButton.onclick = function(e) {
+			e.preventDefault()
+                                 
+			           //数据回调，关键字key：testObjcCallback 要和webView保持一致。
+			bridge.callHandler('GFCodeScanBack', function(response) {
+				log('scan result:', response)
+			})
+		}
+                                 
+                                
+    //拍照按钮
+    var photoButton = document.getElementById('buttons').appendChild(document.createElement('button'))
+    photoButton.innerHTML = 'take photo'
+                                 //点击按钮
+    photoButton.onclick = function(e) {
+                e.preventDefault()
+                                 
+    //数据回调，关键字key：takePhotoBack 要和webView保持一致。
+    bridge.callHandler('takePhotoBack', function(response) {
+                      
+            log('take photo result:', response)
+                    })
+       
+    }
+                                 
+//视频录制按钮
+   var videoRecodeButton = document.getElementById('buttons').appendChild(document.createElement('button'))
+    videoRecodeButton.innerHTML = 'video record'
+    //点击按钮
+    videoRecodeButton.onclick = function(e) {
+                e.preventDefault()
+                                 
+    //数据回调，关键字key：videoRecordBack 要和webView保持一致。
+    bridge.callHandler('videoRecordBack', function(response) {
+        log('video record result:', response)
+                    })
+        }
+                                 
+    //地图按钮
+    var mapButton = document.getElementById('buttons').appendChild(document.createElement('button'))
+    mapButton.innerHTML = 'enter map'
+        //点击按钮
+    mapButton.onclick = function(e) {
+            e.preventDefault()
+                                 
+    //数据回调，关键字key：mapBack 要和webView保持一致。
+    bridge.callHandler('mapBack', function(response) {
+        log('enter map result:', response)
+        })
+    }
+                                 
+                         
+    
+	})
+	</script>
+	<div id='buttons'></div> <div id='log'></div>
+</body></html>

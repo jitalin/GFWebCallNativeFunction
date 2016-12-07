@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2B0E521DD008F4004B3D1B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = EC2B0E511DD008F4004B3D1B /* index.html */; };
+		EC8B16D11DCC76C200EEF185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B16D01DCC76C200EEF185 /* main.m */; };
+		EC8B16DC1DCC76C200EEF185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8B16DB1DCC76C200EEF185 /* Assets.xcassets */; };
+		EC8B16DF1DCC76C200EEF185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8B16DD1DCC76C200EEF185 /* LaunchScreen.storyboard */; };
+		EC8B16EA1DCC76C200EEF185 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B16E91DCC76C200EEF185 /* _____Tests.m */; };
+		EC8B16F51DCC76C200EEF185 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B16F41DCC76C200EEF185 /* _____UITests.m */; };
+		EC8B17261DCC77FE00EEF185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B17251DCC77FE00EEF185 /* AppDelegate.m */; };
+		EC8B172A1DCC781C00EEF185 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = EC8B17271DCC781C00EEF185 /* ExampleApp.html */; };
+		EC8B172B1DCC781C00EEF185 /* ExampleUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B17291DCC781C00EEF185 /* ExampleUIWebViewController.m */; };
+		EC9843FF1DE8093D00331149 /* LGHMapManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9843FE1DE8093D00331149 /* LGHMapManagerViewController.m */; };
+		EC98ACF51DF7EB8800AFF22B /* GFCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC98ACF21DF7EB8800AFF22B /* GFCodeScanViewController.m */; };
+		EC98ACF61DF7EB8800AFF22B /* GFShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC98ACF41DF7EB8800AFF22B /* GFShapeView.m */; };
+		ECA1C7FA1DE68CFE00EC1654 /* PhotoPickManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA1C7F91DE68CFE00EC1654 /* PhotoPickManager.m */; };
+		ECD5A5AF1DF5003900B0B168 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ECD5A5A91DF5003900B0B168 /* LICENSE */; };
+		ECD5A5B01DF5003900B0B168 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD5A5AB1DF5003900B0B168 /* MBProgressHUD.m */; };
+		ECD5A5B11DF5003900B0B168 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = ECD5A5AC1DF5003900B0B168 /* README.mdown */; };
+		ECD5A5B21DF5003900B0B168 /* NSObject+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD5A5AE1DF5003900B0B168 /* NSObject+HUD.m */; };
+		ECF401991DED0DBD008CFB73 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF4018C1DED0DBD008CFB73 /* WebViewJavascriptBridge.m */; };
+		ECF4019A1DED0DBD008CFB73 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF4018E1DED0DBD008CFB73 /* WebViewJavascriptBridge_JS.m */; };
+		ECF4019B1DED0DBD008CFB73 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF401901DED0DBD008CFB73 /* WebViewJavascriptBridgeBase.m */; };
+		ECF4019C1DED0DBD008CFB73 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF401921DED0DBD008CFB73 /* WKWebViewJavascriptBridge.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8B16E61DCC76C200EEF185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8B16C41DCC76C200EEF185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8B16CB1DCC76C200EEF185;
+			remoteInfo = "测试静态库";
+		};
+		EC8B16F11DCC76C200EEF185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8B16C41DCC76C200EEF185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8B16CB1DCC76C200EEF185;
+			remoteInfo = "测试静态库";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2B0E511DD008F4004B3D1B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		EC8B16CC1DCC76C200EEF185 /* 网页调用iOS功能合集.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网页调用iOS功能合集.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8B16D01DCC76C200EEF185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC8B16DB1DCC76C200EEF185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8B16DE1DCC76C200EEF185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC8B16E01DCC76C200EEF185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8B16E51DCC76C200EEF185 /* 网页调用iOS功能合集Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网页调用iOS功能合集Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8B16E91DCC76C200EEF185 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		EC8B16EB1DCC76C200EEF185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8B16F01DCC76C200EEF185 /* 网页调用iOS功能合集Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网页调用iOS功能合集Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8B16F41DCC76C200EEF185 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		EC8B16F61DCC76C200EEF185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8B17241DCC77FE00EEF185 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC8B17251DCC77FE00EEF185 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC8B17271DCC781C00EEF185 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		EC8B17281DCC781C00EEF185 /* ExampleUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleUIWebViewController.h; sourceTree = "<group>"; };
+		EC8B17291DCC781C00EEF185 /* ExampleUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleUIWebViewController.m; sourceTree = "<group>"; };
+		EC9843FD1DE8093D00331149 /* LGHMapManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHMapManagerViewController.h; sourceTree = "<group>"; };
+		EC9843FE1DE8093D00331149 /* LGHMapManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHMapManagerViewController.m; sourceTree = "<group>"; };
+		EC98ACF11DF7EB8800AFF22B /* GFCodeScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCodeScanViewController.h; sourceTree = "<group>"; };
+		EC98ACF21DF7EB8800AFF22B /* GFCodeScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFCodeScanViewController.m; sourceTree = "<group>"; };
+		EC98ACF31DF7EB8800AFF22B /* GFShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFShapeView.h; sourceTree = "<group>"; };
+		EC98ACF41DF7EB8800AFF22B /* GFShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFShapeView.m; sourceTree = "<group>"; };
+		ECA1C7F81DE68CFE00EC1654 /* PhotoPickManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickManager.h; sourceTree = "<group>"; };
+		ECA1C7F91DE68CFE00EC1654 /* PhotoPickManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickManager.m; sourceTree = "<group>"; };
+		ECD5A5A91DF5003900B0B168 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		ECD5A5AA1DF5003900B0B168 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		ECD5A5AB1DF5003900B0B168 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		ECD5A5AC1DF5003900B0B168 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		ECD5A5AD1DF5003900B0B168 /* NSObject+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HUD.h"; sourceTree = "<group>"; };
+		ECD5A5AE1DF5003900B0B168 /* NSObject+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HUD.m"; sourceTree = "<group>"; };
+		ECF4018B1DED0DBD008CFB73 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		ECF4018C1DED0DBD008CFB73 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		ECF4018D1DED0DBD008CFB73 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		ECF4018E1DED0DBD008CFB73 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		ECF4018F1DED0DBD008CFB73 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		ECF401901DED0DBD008CFB73 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		ECF401911DED0DBD008CFB73 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		ECF401921DED0DBD008CFB73 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8B16C91DCC76C200EEF185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8B16E21DCC76C200EEF185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8B16ED1DCC76C200EEF185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8B16C31DCC76C200EEF185 = {
+			isa = PBXGroup;
+			children = (
+				EC8B16CE1DCC76C200EEF185 /* 网页调用iOS功能合集 */,
+				EC8B16E81DCC76C200EEF185 /* 网页调用iOS功能合集Tests */,
+				EC8B16F31DCC76C200EEF185 /* 网页调用iOS功能合集UITests */,
+				EC8B16CD1DCC76C200EEF185 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8B16CD1DCC76C200EEF185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8B16CC1DCC76C200EEF185 /* 网页调用iOS功能合集.app */,
+				EC8B16E51DCC76C200EEF185 /* 网页调用iOS功能合集Tests.xctest */,
+				EC8B16F01DCC76C200EEF185 /* 网页调用iOS功能合集Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8B16CE1DCC76C200EEF185 /* 网页调用iOS功能合集 */ = {
+			isa = PBXGroup;
+			children = (
+				EC98ACF01DF7EB8800AFF22B /* GFCodeScan */,
+				ECD5A5A71DF5002D00B0B168 /* Vendor */,
+				ECF4018A1DED0DBD008CFB73 /* WebViewJavascriptBridge */,
+				EC9843F91DE7E10E00331149 /* MapFunction */,
+				ECA1C7F71DE68CFE00EC1654 /* CameraFuction */,
+				EC8B16DB1DCC76C200EEF185 /* Assets.xcassets */,
+				EC2B0E511DD008F4004B3D1B /* index.html */,
+				EC8B17271DCC781C00EEF185 /* ExampleApp.html */,
+				EC8B17281DCC781C00EEF185 /* ExampleUIWebViewController.h */,
+				EC8B17291DCC781C00EEF185 /* ExampleUIWebViewController.m */,
+				EC8B17241DCC77FE00EEF185 /* AppDelegate.h */,
+				EC8B17251DCC77FE00EEF185 /* AppDelegate.m */,
+				EC8B16DD1DCC76C200EEF185 /* LaunchScreen.storyboard */,
+				EC8B16E01DCC76C200EEF185 /* Info.plist */,
+				EC8B16CF1DCC76C200EEF185 /* Supporting Files */,
+			);
+			name = "网页调用iOS功能合集";
+			path = "测试静态库";
+			sourceTree = "<group>";
+		};
+		EC8B16CF1DCC76C200EEF185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8B16D01DCC76C200EEF185 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8B16E81DCC76C200EEF185 /* 网页调用iOS功能合集Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8B16E91DCC76C200EEF185 /* _____Tests.m */,
+				EC8B16EB1DCC76C200EEF185 /* Info.plist */,
+			);
+			name = "网页调用iOS功能合集Tests";
+			path = "测试静态库Tests";
+			sourceTree = "<group>";
+		};
+		EC8B16F31DCC76C200EEF185 /* 网页调用iOS功能合集UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8B16F41DCC76C200EEF185 /* _____UITests.m */,
+				EC8B16F61DCC76C200EEF185 /* Info.plist */,
+			);
+			name = "网页调用iOS功能合集UITests";
+			path = "测试静态库UITests";
+			sourceTree = "<group>";
+		};
+		EC9843F91DE7E10E00331149 /* MapFunction */ = {
+			isa = PBXGroup;
+			children = (
+				EC9843FD1DE8093D00331149 /* LGHMapManagerViewController.h */,
+				EC9843FE1DE8093D00331149 /* LGHMapManagerViewController.m */,
+			);
+			path = MapFunction;
+			sourceTree = "<group>";
+		};
+		EC98ACF01DF7EB8800AFF22B /* GFCodeScan */ = {
+			isa = PBXGroup;
+			children = (
+				EC98ACF11DF7EB8800AFF22B /* GFCodeScanViewController.h */,
+				EC98ACF21DF7EB8800AFF22B /* GFCodeScanViewController.m */,
+				EC98ACF31DF7EB8800AFF22B /* GFShapeView.h */,
+				EC98ACF41DF7EB8800AFF22B /* GFShapeView.m */,
+			);
+			path = GFCodeScan;
+			sourceTree = "<group>";
+		};
+		ECA1C7F71DE68CFE00EC1654 /* CameraFuction */ = {
+			isa = PBXGroup;
+			children = (
+				ECA1C7F81DE68CFE00EC1654 /* PhotoPickManager.h */,
+				ECA1C7F91DE68CFE00EC1654 /* PhotoPickManager.m */,
+			);
+			path = CameraFuction;
+			sourceTree = "<group>";
+		};
+		ECD5A5A71DF5002D00B0B168 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				ECD5A5A81DF5003900B0B168 /* MBProgressHUD */,
+				ECD5A5AD1DF5003900B0B168 /* NSObject+HUD.h */,
+				ECD5A5AE1DF5003900B0B168 /* NSObject+HUD.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		ECD5A5A81DF5003900B0B168 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				ECD5A5A91DF5003900B0B168 /* LICENSE */,
+				ECD5A5AA1DF5003900B0B168 /* MBProgressHUD.h */,
+				ECD5A5AB1DF5003900B0B168 /* MBProgressHUD.m */,
+				ECD5A5AC1DF5003900B0B168 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		ECF4018A1DED0DBD008CFB73 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				ECF4018B1DED0DBD008CFB73 /* WebViewJavascriptBridge.h */,
+				ECF4018C1DED0DBD008CFB73 /* WebViewJavascriptBridge.m */,
+				ECF4018D1DED0DBD008CFB73 /* WebViewJavascriptBridge_JS.h */,
+				ECF4018E1DED0DBD008CFB73 /* WebViewJavascriptBridge_JS.m */,
+				ECF4018F1DED0DBD008CFB73 /* WebViewJavascriptBridgeBase.h */,
+				ECF401901DED0DBD008CFB73 /* WebViewJavascriptBridgeBase.m */,
+				ECF401911DED0DBD008CFB73 /* WKWebViewJavascriptBridge.h */,
+				ECF401921DED0DBD008CFB73 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8B16CB1DCC76C200EEF185 /* 网页调用iOS功能合集 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8B16F91DCC76C200EEF185 /* Build configuration list for PBXNativeTarget "网页调用iOS功能合集" */;
+			buildPhases = (
+				EC8B16C81DCC76C200EEF185 /* Sources */,
+				EC8B16C91DCC76C200EEF185 /* Frameworks */,
+				EC8B16CA1DCC76C200EEF185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网页调用iOS功能合集";
+			productName = "测试静态库";
+			productReference = EC8B16CC1DCC76C200EEF185 /* 网页调用iOS功能合集.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8B16E41DCC76C200EEF185 /* 网页调用iOS功能合集Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8B16FC1DCC76C200EEF185 /* Build configuration list for PBXNativeTarget "网页调用iOS功能合集Tests" */;
+			buildPhases = (
+				EC8B16E11DCC76C200EEF185 /* Sources */,
+				EC8B16E21DCC76C200EEF185 /* Frameworks */,
+				EC8B16E31DCC76C200EEF185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8B16E71DCC76C200EEF185 /* PBXTargetDependency */,
+			);
+			name = "网页调用iOS功能合集Tests";
+			productName = "测试静态库Tests";
+			productReference = EC8B16E51DCC76C200EEF185 /* 网页调用iOS功能合集Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC8B16EF1DCC76C200EEF185 /* 网页调用iOS功能合集UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8B16FF1DCC76C200EEF185 /* Build configuration list for PBXNativeTarget "网页调用iOS功能合集UITests" */;
+			buildPhases = (
+				EC8B16EC1DCC76C200EEF185 /* Sources */,
+				EC8B16ED1DCC76C200EEF185 /* Frameworks */,
+				EC8B16EE1DCC76C200EEF185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8B16F21DCC76C200EEF185 /* PBXTargetDependency */,
+			);
+			name = "网页调用iOS功能合集UITests";
+			productName = "测试静态库UITests";
+			productReference = EC8B16F01DCC76C200EEF185 /* 网页调用iOS功能合集Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8B16C41DCC76C200EEF185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "高飞";
+				TargetAttributes = {
+					EC8B16CB1DCC76C200EEF185 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EC8B16E41DCC76C200EEF185 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC8B16CB1DCC76C200EEF185;
+					};
+					EC8B16EF1DCC76C200EEF185 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC8B16CB1DCC76C200EEF185;
+					};
+				};
+			};
+			buildConfigurationList = EC8B16C71DCC76C200EEF185 /* Build configuration list for PBXProject "网页调用iOS功能合集" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8B16C31DCC76C200EEF185;
+			productRefGroup = EC8B16CD1DCC76C200EEF185 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8B16CB1DCC76C200EEF185 /* 网页调用iOS功能合集 */,
+				EC8B16E41DCC76C200EEF185 /* 网页调用iOS功能合集Tests */,
+				EC8B16EF1DCC76C200EEF185 /* 网页调用iOS功能合集UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8B16CA1DCC76C200EEF185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD5A5AF1DF5003900B0B168 /* LICENSE in Resources */,
+				EC2B0E521DD008F4004B3D1B /* index.html in Resources */,
+				EC8B16DF1DCC76C200EEF185 /* LaunchScreen.storyboard in Resources */,
+				EC8B16DC1DCC76C200EEF185 /* Assets.xcassets in Resources */,
+				EC8B172A1DCC781C00EEF185 /* ExampleApp.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8B16E31DCC76C200EEF185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8B16EE1DCC76C200EEF185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8B16C81DCC76C200EEF185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF4019B1DED0DBD008CFB73 /* WebViewJavascriptBridgeBase.m in Sources */,
+				EC98ACF61DF7EB8800AFF22B /* GFShapeView.m in Sources */,
+				EC8B17261DCC77FE00EEF185 /* AppDelegate.m in Sources */,
+				ECF401991DED0DBD008CFB73 /* WebViewJavascriptBridge.m in Sources */,
+				ECA1C7FA1DE68CFE00EC1654 /* PhotoPickManager.m in Sources */,
+				ECD5A5B01DF5003900B0B168 /* MBProgressHUD.m in Sources */,
+				EC8B16D11DCC76C200EEF185 /* main.m in Sources */,
+				EC8B172B1DCC781C00EEF185 /* ExampleUIWebViewController.m in Sources */,
+				ECF4019A1DED0DBD008CFB73 /* WebViewJavascriptBridge_JS.m in Sources */,
+				EC9843FF1DE8093D00331149 /* LGHMapManagerViewController.m in Sources */,
+				ECD5A5B11DF5003900B0B168 /* README.mdown in Sources */,
+				ECD5A5B21DF5003900B0B168 /* NSObject+HUD.m in Sources */,
+				EC98ACF51DF7EB8800AFF22B /* GFCodeScanViewController.m in Sources */,
+				ECF4019C1DED0DBD008CFB73 /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8B16E11DCC76C200EEF185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8B16EA1DCC76C200EEF185 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8B16EC1DCC76C200EEF185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8B16F51DCC76C200EEF185 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8B16E71DCC76C200EEF185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8B16CB1DCC76C200EEF185 /* 网页调用iOS功能合集 */;
+			targetProxy = EC8B16E61DCC76C200EEF185 /* PBXContainerItemProxy */;
+		};
+		EC8B16F21DCC76C200EEF185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8B16CB1DCC76C200EEF185 /* 网页调用iOS功能合集 */;
+			targetProxy = EC8B16F11DCC76C200EEF185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8B16DD1DCC76C200EEF185 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8B16DE1DCC76C200EEF185 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8B16F71DCC76C200EEF185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = all_load;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8B16F81DCC76C200EEF185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = all_load;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8B16FA1DCC76C200EEF185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "测试静态库/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/测试静态库",
+					"$(PROJECT_DIR)/测试静态库/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EC8B16FB1DCC76C200EEF185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "测试静态库/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/测试静态库",
+					"$(PROJECT_DIR)/测试静态库/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EC8B16FD1DCC76C200EEF185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "测试静态库Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.-----Tests";
+				PRODUCT_NAME = "网页调用iOS功能合集Tests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网页调用iOS功能合集.app/网页调用iOS功能合集";
+			};
+			name = Debug;
+		};
+		EC8B16FE1DCC76C200EEF185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "测试静态库Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.-----Tests";
+				PRODUCT_NAME = "网页调用iOS功能合集Tests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网页调用iOS功能合集.app/网页调用iOS功能合集";
+			};
+			name = Release;
+		};
+		EC8B17001DCC76C200EEF185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "测试静态库UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.-----UITests";
+				PRODUCT_NAME = "网页调用iOS功能合集Tests";
+				TEST_TARGET_NAME = "测试静态库";
+			};
+			name = Debug;
+		};
+		EC8B17011DCC76C200EEF185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "测试静态库UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunyard.-----UITests";
+				PRODUCT_NAME = "网页调用iOS功能合集Tests";
+				TEST_TARGET_NAME = "测试静态库";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8B16C71DCC76C200EEF185 /* Build configuration list for PBXProject "网页调用iOS功能合集" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8B16F71DCC76C200EEF185 /* Debug */,
+				EC8B16F81DCC76C200EEF185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8B16F91DCC76C200EEF185 /* Build configuration list for PBXNativeTarget "网页调用iOS功能合集" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8B16FA1DCC76C200EEF185 /* Debug */,
+				EC8B16FB1DCC76C200EEF185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8B16FC1DCC76C200EEF185 /* Build configuration list for PBXNativeTarget "网页调用iOS功能合集Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8B16FD1DCC76C200EEF185 /* Debug */,
+				EC8B16FE1DCC76C200EEF185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8B16FF1DCC76C200EEF185 /* Build configuration list for PBXNativeTarget "网页调用iOS功能合集UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8B17001DCC76C200EEF185 /* Debug */,
+				EC8B17011DCC76C200EEF185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8B16C41DCC76C200EEF185 /* Project object */;
+}
